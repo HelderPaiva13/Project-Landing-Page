@@ -41,7 +41,6 @@ a {
 }
 
 .menu {
-  border: 2px solid black;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -54,6 +53,10 @@ a {
 .footer {
   border: 2px solid yellow;
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
 }
 
 .p-titulo {
@@ -82,10 +85,14 @@ a {
 .content {
   display: flex;
   flex-direction: column;
+  
 }
 
 .titulo-noticias {
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bloco-noticias {
@@ -99,7 +106,7 @@ a {
 
 .noticia {
   width: 25rem;
-  height: 15,625rem;
+  height: 18rem;
   border-radius: 10px;
   border: 2px solid green;
   padding: 0.5rem;
