@@ -98,6 +98,9 @@ a {
 }
 
 .noticia {
+  width: 25rem;
+  height: 15,625rem;
+  border-radius: 10px;
   border: 2px solid green;
   padding: 0.5rem;
   
@@ -107,5 +110,10 @@ a {
   .content-header img {
     width: 100%;
     height: 30%
+  }
+
+  .noticia {
+    width: 100%;
+    height: 30%;
   }
 }
